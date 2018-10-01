@@ -7,94 +7,125 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		15F268B19B4C35B846C4CE96FCA659FA /* AnimatedMaskLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 200EA11E8D487E5194509D3091E2C8B5 /* AnimatedMaskLabel-dummy.m */; };
-		362C3C93305D28B89769AC9F5FC4DB75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		4029229820778CB9008666F9 /* AnimatedMaskLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4029229720778CB9008666F9 /* AnimatedMaskLabel.swift */; };
-		493381939AE6CE02E9340397A78AC91E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		87E4EDEF22667E9CF75D63630F7B33C0 /* Pods-AnimatedMaskLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 460FFFA25D6420C670E9D0758C0AA69E /* Pods-AnimatedMaskLabel_Tests-dummy.m */; };
-		9A726D4DECB5C4DBC8A050880442B990 /* Pods-AnimatedMaskLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9688CC1FAD022E186752B483147EB4C4 /* Pods-AnimatedMaskLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A40560A9756EA592679BA0407D94ED35 /* Pods-AnimatedMaskLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5C6872FF2D278372A248DD701AF0FD /* Pods-AnimatedMaskLabel_Example-dummy.m */; };
-		ACE39D9026BEDBA38E0806D1A7C44B28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		C42D21FC2270168FC0E329E56B685F6D /* Pods-AnimatedMaskLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC654E8018984CE2196D1DF708AE266A /* Pods-AnimatedMaskLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CFF2E29647743AEF413D7B3873432483 /* AnimatedMaskLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2372B66160E621AC7187F4E872989B /* AnimatedMaskLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B943D8A2EAE98FF96B85AC715E891AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E826AE0196CB3540E72242664FBD3F32 /* UIKit.framework */; };
+		30158720671B3D5AFD0685328DB3D631 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */; };
+		513D82B3DB51B95827A65C6DC71EC348 /* AnimatedMaskLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0E1E621790B54B0311D2BA5C60D58A /* AnimatedMaskLabel.swift */; };
+		51E0A35DD7E21AA13A62261967FE39A9 /* Pods-AnimatedMaskLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9688CC1FAD022E186752B483147EB4C4 /* Pods-AnimatedMaskLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C182638317439865C5B12DD730D3B1B /* Pods-AnimatedMaskLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 460FFFA25D6420C670E9D0758C0AA69E /* Pods-AnimatedMaskLabel_Tests-dummy.m */; };
+		62503AD7DCD267D14295206BA5DC8D9C /* AnimatedMaskLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FABCD5926CEB871EE7933BA2B7A883C7 /* AnimatedMaskLabel-dummy.m */; };
+		6780DF9887C880F2A65DA766E251E069 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */; };
+		823986807713332CB36FA9FECBFBD9ED /* Pods-AnimatedMaskLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5C6872FF2D278372A248DD701AF0FD /* Pods-AnimatedMaskLabel_Example-dummy.m */; };
+		C47D2EE7590D53BBC8A41865A3BC8B69 /* AnimatedMaskLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDC10A930572DF9BAC9CB58AE6604BFF /* AnimatedMaskLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0A5F4DB5E830E26FF6DFC786D40F5BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */; };
+		EBA45AA8472CFB74EB74FC4DD525C130 /* Pods-AnimatedMaskLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC654E8018984CE2196D1DF708AE266A /* Pods-AnimatedMaskLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F86989FF017D93BA3BC45D6A3A479AF8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E839864EE09C8CE0528DE01FD9241A /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AE766A3EB617892FFDD03A354906380E /* PBXContainerItemProxy */ = {
+		7D2CF071D2929DD9774D600DD3162C39 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 29788F5A7F115A51E2126DB750DA57B6;
+			remoteGlobalIDString = 96107E33DA8B39F3BE7C2DCE4E5D5A0A;
+			remoteInfo = "Pods-AnimatedMaskLabel_Example";
+		};
+		F98A823E45E6F5B06878C064CD2325B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BF2FA2D4A2CAF2904B393D9D62040F5;
 			remoteInfo = AnimatedMaskLabel;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		042AA64FC5AF858EAB42D34793F24473 /* Pods-AnimatedMaskLabel_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnimatedMaskLabel_Example-resources.sh"; sourceTree = "<group>"; };
-		0DA5A3FA5CE0C2CD2D86CEB0126494F5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		198720C1C72D5CCB485D9C462D6645B1 /* Pods-AnimatedMaskLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnimatedMaskLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		1F2372B66160E621AC7187F4E872989B /* AnimatedMaskLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimatedMaskLabel-umbrella.h"; sourceTree = "<group>"; };
-		200EA11E8D487E5194509D3091E2C8B5 /* AnimatedMaskLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AnimatedMaskLabel-dummy.m"; sourceTree = "<group>"; };
+		21306CDA3505FC948B4077AB70DBD61B /* AnimatedMaskLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AnimatedMaskLabel.modulemap; sourceTree = "<group>"; };
 		251CDA19AB7A58656457500AFA692154 /* Pods-AnimatedMaskLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnimatedMaskLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
 		276A3951E40C15A80E31BB39986091CF /* Pods-AnimatedMaskLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnimatedMaskLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2E7B82ABEFAE4F894496BA015FE4F21D /* Pods-AnimatedMaskLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnimatedMaskLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
+		312FF7BC26C8241297B90B836E3CC7F7 /* AnimatedMaskLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnimatedMaskLabel.xcconfig; sourceTree = "<group>"; };
 		37B158DE6875492DBDB55F0E878D996A /* Pods-AnimatedMaskLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnimatedMaskLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4029229720778CB9008666F9 /* AnimatedMaskLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedMaskLabel.swift; sourceTree = "<group>"; };
-		42833139EB6C1F163885939B417F83A8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		460FFFA25D6420C670E9D0758C0AA69E /* Pods-AnimatedMaskLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AnimatedMaskLabel_Tests-dummy.m"; sourceTree = "<group>"; };
 		4965FB0812162BB7A56228193CF697B4 /* Pods-AnimatedMaskLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AnimatedMaskLabel_Tests.modulemap"; sourceTree = "<group>"; };
 		53EB4FE664B13BCE4212EE6626B4734F /* Pods-AnimatedMaskLabel_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnimatedMaskLabel_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		5D4C82CD8D50AE7390740483F91A26C9 /* AnimatedMaskLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AnimatedMaskLabel.modulemap; sourceTree = "<group>"; };
 		5E5C6872FF2D278372A248DD701AF0FD /* Pods-AnimatedMaskLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AnimatedMaskLabel_Example-dummy.m"; sourceTree = "<group>"; };
 		60CD8C99C8D38046684986B0C89947C7 /* Pods_AnimatedMaskLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimatedMaskLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6249FF8ADBB0F064D60E10B5C8497C63 /* Pods_AnimatedMaskLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimatedMaskLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		67522674CD1A7F188B975433C683DD38 /* AnimatedMaskLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = AnimatedMaskLabel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6C3D608D1CE457F4AB911BD115A903F2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		77BADF03ABC4C8BAA70D4E7F3208913D /* AnimatedMaskLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimatedMaskLabel-prefix.pch"; sourceTree = "<group>"; };
+		81337AAF4073070D790556E67EB5D580 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8E4E2CAA3B880802188354A000E35463 /* Pods-AnimatedMaskLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AnimatedMaskLabel_Example.modulemap"; sourceTree = "<group>"; };
-		91BCB3B2CDDF65A4264969C8A1DA5C60 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9688CC1FAD022E186752B483147EB4C4 /* Pods-AnimatedMaskLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AnimatedMaskLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
 		978876ED6390AD0F0CCBF52837CDB014 /* AnimatedMaskLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AnimatedMaskLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B57770613703A2F7F7D6303F7AA83F6 /* Pods-AnimatedMaskLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AnimatedMaskLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B0FA506D237F709755ACE5C43A83055E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C6D745D91D6F1C41D0CD307AEBA4A721 /* AnimatedMaskLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = AnimatedMaskLabel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CC0E1E621790B54B0311D2BA5C60D58A /* AnimatedMaskLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedMaskLabel.swift; path = AnimatedMaskLabel/Classes/AnimatedMaskLabel.swift; sourceTree = "<group>"; };
+		D364A5FD455504A7953233B3B9E8575D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6E839864EE09C8CE0528DE01FD9241A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		D89874FBCB2EA8DCA3FAB26A14051FF6 /* Pods-AnimatedMaskLabel_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AnimatedMaskLabel_Tests-resources.sh"; sourceTree = "<group>"; };
 		DC654E8018984CE2196D1DF708AE266A /* Pods-AnimatedMaskLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AnimatedMaskLabel_Example-umbrella.h"; sourceTree = "<group>"; };
 		DFB9009EBB95583D9F31AE38B56B9BF9 /* Pods-AnimatedMaskLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AnimatedMaskLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E36D1BBA1B473589AB74A3566693FC32 /* Pods-AnimatedMaskLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AnimatedMaskLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F31D1EB2A3A25DBD0C944CF3A0B5F6D7 /* AnimatedMaskLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnimatedMaskLabel.xcconfig; sourceTree = "<group>"; };
+		E826AE0196CB3540E72242664FBD3F32 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		ECDC9279F06FB123111AB42332AC6656 /* AnimatedMaskLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimatedMaskLabel-prefix.pch"; sourceTree = "<group>"; };
+		EDC10A930572DF9BAC9CB58AE6604BFF /* AnimatedMaskLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimatedMaskLabel-umbrella.h"; sourceTree = "<group>"; };
+		FABCD5926CEB871EE7933BA2B7A883C7 /* AnimatedMaskLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AnimatedMaskLabel-dummy.m"; sourceTree = "<group>"; };
+		FC07FD0FCCB4C8427F5B0610C037D334 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		FE564D8BCBD1BE92B3F1817E3A785AC4 /* Pods-AnimatedMaskLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AnimatedMaskLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8CD0FF470C5FA94467CC2A27497516B2 /* Frameworks */ = {
+		18183C4894F201012A69E6E0F082614C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACE39D9026BEDBA38E0806D1A7C44B28 /* Foundation.framework in Frameworks */,
+				6780DF9887C880F2A65DA766E251E069 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AB3F64DD279BFBA479C81747AFCB49A1 /* Frameworks */ = {
+		BBA07DAF6C4AFCDFCC9DF47C95745552 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				362C3C93305D28B89769AC9F5FC4DB75 /* Foundation.framework in Frameworks */,
+				E0A5F4DB5E830E26FF6DFC786D40F5BC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2B864A7EBEA8F73A62CEB35D2C02FFD /* Frameworks */ = {
+		C2F417250AF318931BAF8C7F6B4E1D9F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				493381939AE6CE02E9340397A78AC91E /* Foundation.framework in Frameworks */,
+				30158720671B3D5AFD0685328DB3D631 /* Foundation.framework in Frameworks */,
+				F86989FF017D93BA3BC45D6A3A479AF8 /* QuartzCore.framework in Frameworks */,
+				2B943D8A2EAE98FF96B85AC715E891AC /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		110DE849A13BE94ADB3E8E96622B1A35 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				67522674CD1A7F188B975433C683DD38 /* AnimatedMaskLabel.podspec */,
+				FC07FD0FCCB4C8427F5B0610C037D334 /* LICENSE */,
+				81337AAF4073070D790556E67EB5D580 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EBF83A17FAAD0333B507DD3E1099181 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1CE7AF10B6551E656FC1C7E06F5A0EE2 /* Pods-AnimatedMaskLabel_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,12 +144,15 @@
 			path = "Target Support Files/Pods-AnimatedMaskLabel_Tests";
 			sourceTree = "<group>";
 		};
-		4029229920779F16008666F9 /* Classes */ = {
+		63EDC3AB3EC40DED68B0F49B9CC2E83F /* AnimatedMaskLabel */ = {
 			isa = PBXGroup;
 			children = (
-				4029229720778CB9008666F9 /* AnimatedMaskLabel.swift */,
+				CC0E1E621790B54B0311D2BA5C60D58A /* AnimatedMaskLabel.swift */,
+				110DE849A13BE94ADB3E8E96622B1A35 /* Pod */,
+				A2C6691AF42708036BBCDAA533680D6F /* Support Files */,
 			);
-			path = Classes;
+			name = AnimatedMaskLabel;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -126,21 +160,10 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				E4DE3CCE81C8FE3B1259FF91C2641247 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
 				BC8D32C6F3F6D10E707A2E0D4620159F /* Products */,
 				E529F106E586CA1917F9483E60E59086 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8F8EC8BA8D187A57E7C7A665BBE15462 /* AnimatedMaskLabel */ = {
-			isa = PBXGroup;
-			children = (
-				AC1DC09F1422E9939A82D9CFB77DA296 /* Pod */,
-				AA748D8B9999B18D18F4C6F90EA3AC42 /* Support Files */,
-				4029229920779F16008666F9 /* Classes */,
-			);
-			name = AnimatedMaskLabel;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		9D52D5C0E05EA4C6A2DA08CBCF142A6A /* Pods-AnimatedMaskLabel_Example */ = {
@@ -161,36 +184,28 @@
 			path = "Target Support Files/Pods-AnimatedMaskLabel_Example";
 			sourceTree = "<group>";
 		};
-		AA748D8B9999B18D18F4C6F90EA3AC42 /* Support Files */ = {
+		9EBF83A17FAAD0333B507DD3E1099181 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				5D4C82CD8D50AE7390740483F91A26C9 /* AnimatedMaskLabel.modulemap */,
-				F31D1EB2A3A25DBD0C944CF3A0B5F6D7 /* AnimatedMaskLabel.xcconfig */,
-				200EA11E8D487E5194509D3091E2C8B5 /* AnimatedMaskLabel-dummy.m */,
-				77BADF03ABC4C8BAA70D4E7F3208913D /* AnimatedMaskLabel-prefix.pch */,
-				1F2372B66160E621AC7187F4E872989B /* AnimatedMaskLabel-umbrella.h */,
-				91BCB3B2CDDF65A4264969C8A1DA5C60 /* Info.plist */,
+				90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */,
+				D6E839864EE09C8CE0528DE01FD9241A /* QuartzCore.framework */,
+				E826AE0196CB3540E72242664FBD3F32 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A2C6691AF42708036BBCDAA533680D6F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				21306CDA3505FC948B4077AB70DBD61B /* AnimatedMaskLabel.modulemap */,
+				312FF7BC26C8241297B90B836E3CC7F7 /* AnimatedMaskLabel.xcconfig */,
+				FABCD5926CEB871EE7933BA2B7A883C7 /* AnimatedMaskLabel-dummy.m */,
+				ECDC9279F06FB123111AB42332AC6656 /* AnimatedMaskLabel-prefix.pch */,
+				EDC10A930572DF9BAC9CB58AE6604BFF /* AnimatedMaskLabel-umbrella.h */,
+				D364A5FD455504A7953233B3B9E8575D /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/AnimatedMaskLabel";
-			sourceTree = "<group>";
-		};
-		AC1DC09F1422E9939A82D9CFB77DA296 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				C6D745D91D6F1C41D0CD307AEBA4A721 /* AnimatedMaskLabel.podspec */,
-				0DA5A3FA5CE0C2CD2D86CEB0126494F5 /* LICENSE */,
-				42833139EB6C1F163885939B417F83A8 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		BC8D32C6F3F6D10E707A2E0D4620159F /* Products */ = {
@@ -203,18 +218,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		E4DE3CCE81C8FE3B1259FF91C2641247 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8F8EC8BA8D187A57E7C7A665BBE15462 /* AnimatedMaskLabel */,
+				63EDC3AB3EC40DED68B0F49B9CC2E83F /* AnimatedMaskLabel */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -231,40 +238,60 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		03FA0D25B733B4FC57D2E9ABD283A7BC /* Headers */ = {
+		A5FAD6A1948F88E5BACE1766D33BD616 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFF2E29647743AEF413D7B3873432483 /* AnimatedMaskLabel-umbrella.h in Headers */,
+				C47D2EE7590D53BBC8A41865A3BC8B69 /* AnimatedMaskLabel-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		70B6FA08A53A74F73DDF05E541227F3C /* Headers */ = {
+		D8B4617D8CF7B5F3A56E857FE928DBD8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C42D21FC2270168FC0E329E56B685F6D /* Pods-AnimatedMaskLabel_Example-umbrella.h in Headers */,
+				51E0A35DD7E21AA13A62261967FE39A9 /* Pods-AnimatedMaskLabel_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C2F9691848F5280B1992DADF7F885A3F /* Headers */ = {
+		FE01ADD6F4F39A5145BBDEB8488AA829 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A726D4DECB5C4DBC8A050880442B990 /* Pods-AnimatedMaskLabel_Tests-umbrella.h in Headers */,
+				EBA45AA8472CFB74EB74FC4DD525C130 /* Pods-AnimatedMaskLabel_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		29788F5A7F115A51E2126DB750DA57B6 /* AnimatedMaskLabel */ = {
+		45A51B419E7413B2610969D90C3CE81D /* Pods-AnimatedMaskLabel_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C99795FD5A4E200FE675CBD442AF6C76 /* Build configuration list for PBXNativeTarget "AnimatedMaskLabel" */;
+			buildConfigurationList = 7F15B95CC9D39627FFBE1ADDED748B70 /* Build configuration list for PBXNativeTarget "Pods-AnimatedMaskLabel_Tests" */;
 			buildPhases = (
-				1C120C6FEC0E1872820ADAE6BB9DAFCD /* Sources */,
-				8CD0FF470C5FA94467CC2A27497516B2 /* Frameworks */,
-				03FA0D25B733B4FC57D2E9ABD283A7BC /* Headers */,
+				D8B4617D8CF7B5F3A56E857FE928DBD8 /* Headers */,
+				DFACAAC2DFDD4CDCDC3424CA36FA8112 /* Sources */,
+				BBA07DAF6C4AFCDFCC9DF47C95745552 /* Frameworks */,
+				F22A5CDCD93BCEA7663743B1B0FC5319 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97FD4D9E7A1ECC46A43F2AA1C9A6F33F /* PBXTargetDependency */,
+			);
+			name = "Pods-AnimatedMaskLabel_Tests";
+			productName = "Pods-AnimatedMaskLabel_Tests";
+			productReference = 60CD8C99C8D38046684986B0C89947C7 /* Pods_AnimatedMaskLabel_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6BF2FA2D4A2CAF2904B393D9D62040F5 /* AnimatedMaskLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAD8D77F1F0E7776E860ACD85F85EFEF /* Build configuration list for PBXNativeTarget "AnimatedMaskLabel" */;
+			buildPhases = (
+				A5FAD6A1948F88E5BACE1766D33BD616 /* Headers */,
+				507C5078379D20ED30F61A6D755454DD /* Sources */,
+				C2F417250AF318931BAF8C7F6B4E1D9F /* Frameworks */,
+				91F20AA853BD21BAB46C0FF24898662C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -275,39 +302,23 @@
 			productReference = 978876ED6390AD0F0CCBF52837CDB014 /* AnimatedMaskLabel.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A9B32DA5A136C5DDD752F5DB1C0E4B12 /* Pods-AnimatedMaskLabel_Example */ = {
+		96107E33DA8B39F3BE7C2DCE4E5D5A0A /* Pods-AnimatedMaskLabel_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BEA53649FCB36A1788800899EFC74031 /* Build configuration list for PBXNativeTarget "Pods-AnimatedMaskLabel_Example" */;
+			buildConfigurationList = 928C8F1A46411916BD653E95F00A142B /* Build configuration list for PBXNativeTarget "Pods-AnimatedMaskLabel_Example" */;
 			buildPhases = (
-				4ACA9C9B845627C31854655F5BC7BBCB /* Sources */,
-				AB3F64DD279BFBA479C81747AFCB49A1 /* Frameworks */,
-				70B6FA08A53A74F73DDF05E541227F3C /* Headers */,
+				FE01ADD6F4F39A5145BBDEB8488AA829 /* Headers */,
+				DA3D77EF49BAEFF871E011271961DB36 /* Sources */,
+				18183C4894F201012A69E6E0F082614C /* Frameworks */,
+				BB6348F03EE3B2D1924F18F492A62C38 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DAA4E6DFCAE4BA7A78CC5C9FD69B7C25 /* PBXTargetDependency */,
+				A0E5F654CCC0A62AB7FB98A204C5C370 /* PBXTargetDependency */,
 			);
 			name = "Pods-AnimatedMaskLabel_Example";
 			productName = "Pods-AnimatedMaskLabel_Example";
 			productReference = 6249FF8ADBB0F064D60E10B5C8497C63 /* Pods_AnimatedMaskLabel_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D3B858736B01B4C10C663BCA27E2B857 /* Pods-AnimatedMaskLabel_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CBBDF493B5DFA90573FAC64310889FE0 /* Build configuration list for PBXNativeTarget "Pods-AnimatedMaskLabel_Tests" */;
-			buildPhases = (
-				9A64DFA181B26ECF83CA884833E4F632 /* Sources */,
-				D2B864A7EBEA8F73A62CEB35D2C02FFD /* Frameworks */,
-				C2F9691848F5280B1992DADF7F885A3F /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-AnimatedMaskLabel_Tests";
-			productName = "Pods-AnimatedMaskLabel_Tests";
-			productReference = 60CD8C99C8D38046684986B0C89947C7 /* Pods_AnimatedMaskLabel_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -317,12 +328,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0920;
-				TargetAttributes = {
-					29788F5A7F115A51E2126DB750DA57B6 = {
-						LastSwiftMigration = 0920;
-					};
-				};
+				LastUpgradeCheck = 1000;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -336,56 +342,191 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				29788F5A7F115A51E2126DB750DA57B6 /* AnimatedMaskLabel */,
-				A9B32DA5A136C5DDD752F5DB1C0E4B12 /* Pods-AnimatedMaskLabel_Example */,
-				D3B858736B01B4C10C663BCA27E2B857 /* Pods-AnimatedMaskLabel_Tests */,
+				6BF2FA2D4A2CAF2904B393D9D62040F5 /* AnimatedMaskLabel */,
+				96107E33DA8B39F3BE7C2DCE4E5D5A0A /* Pods-AnimatedMaskLabel_Example */,
+				45A51B419E7413B2610969D90C3CE81D /* Pods-AnimatedMaskLabel_Tests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		91F20AA853BD21BAB46C0FF24898662C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6348F03EE3B2D1924F18F492A62C38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22A5CDCD93BCEA7663743B1B0FC5319 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		1C120C6FEC0E1872820ADAE6BB9DAFCD /* Sources */ = {
+		507C5078379D20ED30F61A6D755454DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15F268B19B4C35B846C4CE96FCA659FA /* AnimatedMaskLabel-dummy.m in Sources */,
-				4029229820778CB9008666F9 /* AnimatedMaskLabel.swift in Sources */,
+				62503AD7DCD267D14295206BA5DC8D9C /* AnimatedMaskLabel-dummy.m in Sources */,
+				513D82B3DB51B95827A65C6DC71EC348 /* AnimatedMaskLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4ACA9C9B845627C31854655F5BC7BBCB /* Sources */ = {
+		DA3D77EF49BAEFF871E011271961DB36 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A40560A9756EA592679BA0407D94ED35 /* Pods-AnimatedMaskLabel_Example-dummy.m in Sources */,
+				823986807713332CB36FA9FECBFBD9ED /* Pods-AnimatedMaskLabel_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A64DFA181B26ECF83CA884833E4F632 /* Sources */ = {
+		DFACAAC2DFDD4CDCDC3424CA36FA8112 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87E4EDEF22667E9CF75D63630F7B33C0 /* Pods-AnimatedMaskLabel_Tests-dummy.m in Sources */,
+				5C182638317439865C5B12DD730D3B1B /* Pods-AnimatedMaskLabel_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DAA4E6DFCAE4BA7A78CC5C9FD69B7C25 /* PBXTargetDependency */ = {
+		97FD4D9E7A1ECC46A43F2AA1C9A6F33F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AnimatedMaskLabel_Example";
+			target = 96107E33DA8B39F3BE7C2DCE4E5D5A0A /* Pods-AnimatedMaskLabel_Example */;
+			targetProxy = 7D2CF071D2929DD9774D600DD3162C39 /* PBXContainerItemProxy */;
+		};
+		A0E5F654CCC0A62AB7FB98A204C5C370 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AnimatedMaskLabel;
-			target = 29788F5A7F115A51E2126DB750DA57B6 /* AnimatedMaskLabel */;
-			targetProxy = AE766A3EB617892FFDD03A354906380E /* PBXContainerItemProxy */;
+			target = 6BF2FA2D4A2CAF2904B393D9D62040F5 /* AnimatedMaskLabel */;
+			targetProxy = F98A823E45E6F5B06878C064CD2325B8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		41D5AAF4F0670A66807F2DD18F51F1C3 /* Release */ = {
+		0B05A066EAF4B321E703A790F1D8BD4D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F31D1EB2A3A25DBD0C944CF3A0B5F6D7 /* AnimatedMaskLabel.xcconfig */;
+			baseConfigurationReference = 37B158DE6875492DBDB55F0E878D996A /* Pods-AnimatedMaskLabel_Example.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AnimatedMaskLabel_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AnimatedMaskLabel_Example/Pods-AnimatedMaskLabel_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		193E0B1359363BD89E0EFD0CC10CC8B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 276A3951E40C15A80E31BB39986091CF /* Pods-AnimatedMaskLabel_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AnimatedMaskLabel_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AnimatedMaskLabel_Tests/Pods-AnimatedMaskLabel_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		37981D6ED54B862355CC0F4967877B20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFB9009EBB95583D9F31AE38B56B9BF9 /* Pods-AnimatedMaskLabel_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AnimatedMaskLabel_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AnimatedMaskLabel_Tests/Pods-AnimatedMaskLabel_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7D13D5734B6044215FF061F1F471A7B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 312FF7BC26C8241297B90B836E3CC7F7 /* AnimatedMaskLabel.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -398,88 +539,23 @@
 				GCC_PREFIX_HEADER = "Target Support Files/AnimatedMaskLabel/AnimatedMaskLabel-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/AnimatedMaskLabel/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/AnimatedMaskLabel/AnimatedMaskLabel.modulemap";
+				PRODUCT_MODULE_NAME = AnimatedMaskLabel;
 				PRODUCT_NAME = AnimatedMaskLabel;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		41DFD815D56985F886EAA651E6294A76 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 276A3951E40C15A80E31BB39986091CF /* Pods-AnimatedMaskLabel_Tests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AnimatedMaskLabel_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AnimatedMaskLabel_Tests/Pods-AnimatedMaskLabel_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_AnimatedMaskLabel_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		4A52C75A5C1F7AD75379BDA8C1B315C8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DFB9009EBB95583D9F31AE38B56B9BF9 /* Pods-AnimatedMaskLabel_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AnimatedMaskLabel_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AnimatedMaskLabel_Tests/Pods-AnimatedMaskLabel_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_AnimatedMaskLabel_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+		C92782E717C52E3633C9A5F211E7987A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -511,6 +587,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -531,21 +608,23 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		5E9CD08359E2739B793340A194EFFF77 /* Debug */ = {
+		DA7EE66E7E488384B9AB977EDA98C559 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37B158DE6875492DBDB55F0E878D996A /* Pods-AnimatedMaskLabel_Example.debug.xcconfig */;
+			baseConfigurationReference = 2E7B82ABEFAE4F894496BA015FE4F21D /* Pods-AnimatedMaskLabel_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -557,7 +636,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-AnimatedMaskLabel_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-AnimatedMaskLabel_Example/Pods-AnimatedMaskLabel_Example.modulemap";
@@ -565,18 +644,52 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_AnimatedMaskLabel_Example;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+		E87C9690874E4F39374499D1FFDCB855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 312FF7BC26C8241297B90B836E3CC7F7 /* AnimatedMaskLabel.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AnimatedMaskLabel/AnimatedMaskLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AnimatedMaskLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AnimatedMaskLabel/AnimatedMaskLabel.modulemap";
+				PRODUCT_MODULE_NAME = AnimatedMaskLabel;
+				PRODUCT_NAME = AnimatedMaskLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA8C7AF90938697605468604B2A17B9F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -608,6 +721,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -625,79 +739,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		94140F4B1037672BD36736C8B4488146 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F31D1EB2A3A25DBD0C944CF3A0B5F6D7 /* AnimatedMaskLabel.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AnimatedMaskLabel/AnimatedMaskLabel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AnimatedMaskLabel/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AnimatedMaskLabel/AnimatedMaskLabel.modulemap";
-				PRODUCT_NAME = AnimatedMaskLabel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E2FF537F17739280687BD989CDE23F2D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E7B82ABEFAE4F894496BA015FE4F21D /* Pods-AnimatedMaskLabel_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AnimatedMaskLabel_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AnimatedMaskLabel_Example/Pods-AnimatedMaskLabel_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_AnimatedMaskLabel_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -707,35 +755,35 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
-				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+				C92782E717C52E3633C9A5F211E7987A /* Debug */,
+				EA8C7AF90938697605468604B2A17B9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BEA53649FCB36A1788800899EFC74031 /* Build configuration list for PBXNativeTarget "Pods-AnimatedMaskLabel_Example" */ = {
+		7F15B95CC9D39627FFBE1ADDED748B70 /* Build configuration list for PBXNativeTarget "Pods-AnimatedMaskLabel_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5E9CD08359E2739B793340A194EFFF77 /* Debug */,
-				E2FF537F17739280687BD989CDE23F2D /* Release */,
+				193E0B1359363BD89E0EFD0CC10CC8B7 /* Debug */,
+				37981D6ED54B862355CC0F4967877B20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C99795FD5A4E200FE675CBD442AF6C76 /* Build configuration list for PBXNativeTarget "AnimatedMaskLabel" */ = {
+		928C8F1A46411916BD653E95F00A142B /* Build configuration list for PBXNativeTarget "Pods-AnimatedMaskLabel_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				94140F4B1037672BD36736C8B4488146 /* Debug */,
-				41D5AAF4F0670A66807F2DD18F51F1C3 /* Release */,
+				0B05A066EAF4B321E703A790F1D8BD4D /* Debug */,
+				DA7EE66E7E488384B9AB977EDA98C559 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CBBDF493B5DFA90573FAC64310889FE0 /* Build configuration list for PBXNativeTarget "Pods-AnimatedMaskLabel_Tests" */ = {
+		BAD8D77F1F0E7776E860ACD85F85EFEF /* Build configuration list for PBXNativeTarget "AnimatedMaskLabel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				41DFD815D56985F886EAA651E6294A76 /* Debug */,
-				4A52C75A5C1F7AD75379BDA8C1B315C8 /* Release */,
+				7D13D5734B6044215FF061F1F471A7B0 /* Debug */,
+				E87C9690874E4F39374499D1FFDCB855 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
